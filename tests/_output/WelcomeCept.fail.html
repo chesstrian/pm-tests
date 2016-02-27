@@ -1,0 +1,174 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" style="overflow-y: hidden;"><head>
+    <link rel="stylesheet" href="/lib/pmdynaform/libs/bootstrap-3.1.1/css/bootstrap.min.css" />
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <title>(admin in labs_3_0_1_7)</title>
+
+
+		<!--//////////////////////////////////********//////////////////////////////////-->
+
+
+
+        <script type="text/javascript">
+
+        var BROWSER_CACHE_FILES_UID = "";
+
+        </script>
+
+        <script type="text/javascript" src="/js/maborak/core/maborak.js"></script>
+<script type="text/javascript" src="/jscore/labels/en.js"></script>
+<script type="text/javascript" src="/js/widgets/js-calendar/unicode-letter.js"></script>
+<script type="text/javascript" src="/js/ext/translation.en.js"></script>
+<script type="text/javascript">
+  var leimnud = new maborak();
+
+  leimnud.make({
+
+    zip:true,
+
+    inGulliver:true,
+
+    modules :"dom,abbr,rpc,drag,drop,app,panel,fx,grid,xmlform,validator,dashboard",
+
+    files :""
+
+  });
+
+  try{
+
+    leimnud.exec(leimnud.fix.memoryLeak);
+
+    if(leimnud.browser.isIphone){
+
+      leimnud.iphone.make();
+
+    }
+
+  }catch(e){} var __usernameLogged__ = "admin";var SYS_LANG = "en";</script>
+<script type="text/javascript" src="/js/maborak/core/maborak.loader.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/neoclassic.css" />
+
+  </head>
+      <body onresize="autoResizeScreen()" onload="autoResizeScreen()">   
+      <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" id="pm_main_table">
+        <tbody><tr>
+          <td id="pm_header" valign="top" style="border-bottom:1px solid #e7e7e7;">
+            <table width="100%" height="32" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+              <tbody><tr>
+                                    <td rowspan="2" style="vertical-align:top;width: 245px;"><img src="/images/processmaker.logo.jpg" class="logo_company" /></td>
+                  <td id="mainMenuBG" class="mainMenuBG" rowspan="2" valign="center">
+                      <ul id="pm_menu">
+			<li id="CASES" class="mainMenu">
+		<a href="/syslabs_3_0_1_7/en/neoclassic/cases/main">
+			Home
+		</a>
+	</li>
+				<li id="PROCESSES" class="mainMenu">
+		<a href="/syslabs_3_0_1_7/en/neoclassic/processes/main">
+			Designer
+		</a>
+	</li>
+				<li id="DASHBOARD" class="mainMenu">
+		<a href="/syslabs_3_0_1_7/en/neoclassic/dashboard/main">
+			Dashboards
+		</a>
+	</li>
+				<li id="SETUP" class="SelectedMenu">
+		<a href="/syslabs_3_0_1_7/en/neoclassic/setup/main">
+			admin
+		</a>
+	</li>
+		</ul>                                        </td>
+                  <td height="16" align="right" valign="top">
+                    <div align="right" class="logout">
+                      <small>
+                                              <label class="textBlue"> <a href="../users/myInfo">admin, Administrator (admin)</a> | </label>
+                                                <a href="/syslabs_3_0_1_7/en/neoclassic/login/login" class="tableOption">Logout</a>  <br />
+                        <label class="textBlack"><b></b> Using workspace <b><u>labs_3_0_1_7</u></b><br />
+                        2016-02-27 01:35:00</label>   
+                                            </small>
+                    </div>
+                  </td>
+                                </tr>
+              <tr>
+                <td height="16" valign="bottom" class="title">
+                  <div align="right"></div>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tbody><tr>
+                <td width="100%" align="center">
+                  
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-top: 3px">
+<tbody><tr>
+<td align="center">
+<div id="publisherContent[0]" style="; margin:0px;" align="center">
+  <style type="text/css">
+   *html body {
+      overflow-y: hidden;
+   }
+  </style>
+<iframe name="adminFrame" id="adminFrame" src="main_init" width="99%" height="849" frameborder="0">
+  &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
+</iframe>
+
+<script>
+  oClientWinSize = getClientWindowSize();
+  if ( document.getElementById('pm_submenu') ) 
+    document.getElementById('pm_submenu').style.display = 'none';
+  document.documentElement.style.overflowY = 'hidden';
+  
+  function autoResizeScreen() {
+   	var containerList1, containerList2;
+    oCasesFrame = document.getElementById('adminFrame');
+	containerList1 = document.getElementById("pm_header");
+	if (document.getElementById("mainMenuBG") &amp;&amp;
+		document.getElementById("mainMenuBG").parentNode &amp;&amp;
+		document.getElementById("mainMenuBG").parentNode.parentNode &amp;&amp;
+		document.getElementById("mainMenuBG").parentNode.parentNode.parentNode &amp;&amp;
+		document.getElementById("mainMenuBG").parentNode.parentNode.parentNode.parentNode){
+			containerList2 = document.getElementById("mainMenuBG").parentNode.parentNode.parentNode.parentNode;
+		}
+	if (containerList1 === containerList2) {
+		height = oClientWinSize.height - containerList1.clientHeight;
+		oCasesFrame.style.height = height;
+		if (oCasesFrame.height ) {
+			oCasesFrame.height = height;
+		}
+	} else {
+		oClientWinSize = getClientWindowSize();
+		height = oClientWinSize.height-90;
+		oCasesFrame.style.height = height;
+		oCasesSubFrame = oCasesFrame.contentWindow.document.getElementById('setup-frame');
+
+		if(oCasesSubFrame)
+		  oCasesSubFrame.style.height = height-5;
+		else
+		  setTimeout('autoResizeScreen()', 2000);
+	}
+  }
+</script>
+</div></td>
+</tr>
+</tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+        <tr height="100%">
+          <td height="100%">
+            <div class="Footer">
+              <div class="content"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody></table>
+    
+  </body></html>

@@ -1,0 +1,23 @@
+I WANT TO LOGIN INTO PROCESSMAKER 3.0
+
+I am on page '/syslabs_3_0_1_7/en/neoclassic/login/login'
+I fill field 'form[USR_USERNAME]'," ''
+I fill field 'form[USR_PASSWORD_MASK]'," 'MnQNvGznY7pSbuVv'
+I click 'Login'
+I can see in current url 'main'
+I see 'Designer'
+I click 'Home'
+I wait for element visible 'iframe[name="casesFrame"]'
+I switch to i frame 'casesFrame'
+I wait for text 'New case'
+I click 'New case'
+I wait for element visible 'iframe[name="casesSubFrame"]'
+I switch to i frame 'casesSubFrame'
+I wait for text 'CUN'
+I double click('//li//span[contains "."," "CUN")]'
+I wait for element visible 'iframe[name="openCaseFrame"]'
+I switch to i frame 'openCaseFrame'
+I wait for text 'PQRS'
+I click 'Enviar'
+I see 'This field is required'
+
